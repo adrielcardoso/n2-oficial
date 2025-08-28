@@ -1,0 +1,32 @@
+# 🚽 N2 Oficial – Bathroom Tracker
+
+**N2 Oficial** é um app simples, feito em **React Native com Expo**, pensado para registrar e visualizar idas ao banheiro. Simples, prático e funcional!
+
+##  Funcionalidades
+
+- 🆕 **Cadastro** e **Login** de usuários via armazenamento local (AsyncStorage)  
+- 🏠 Tela inicial com botões para:
+  - **Registrar Momento** (xixi, cocô ou ambos)  
+  - **Visualizar Histórico por Data**  
+- 📝 **Registro de Momento**:
+  - Escolha do tipo: Xixi, Coco ou Ambos  
+  - Observação opcional  
+  - Salvamento local com timestamp  
+- 📅 **Histórico por Data**:
+  - Navegação dia a dia (◀︎ / ▶︎)
+  - Visualização de registros com hora e observações
+
+##  Tecnologias
+
+- **React Native** (via Expo)
+- **Expo**: ambiente de desenvolvimento simplificado
+- **React Navigation**: navegação entre telas
+- **AsyncStorage**: persistência local de dados
+- **Day.js**: manipulação de datas
+
+##  Como Executar
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/adrielcardoso/n2-oficial.git
+   cd n2-oficial

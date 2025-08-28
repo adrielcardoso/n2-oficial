@@ -4,8 +4,7 @@ import { updateUser, getUserByID } from '../../api/firebase/auth';
 const notificationsRef = firebase.firestore().collection('notifications');
 
 const fcmURL = 'https://fcm.googleapis.com/fcm/send';
-const firebaseServerKey =
-  'AAAAc9gTwUY:APA91bHeoypzvompaHc-U-pCcd7azce4h1O2I2Dl9Om2IKKKoDIymFuvhnMI7yLB-AszESlEkPnaqcfBoTHQVJrG00Kr0FmHppWqAOR72mcxCdZiEWDVspxQDVc3ZKVo9LrA44WLpkhU';
+const firebaseServerKey ='';
 
 const handleUserBadgeCount = async (userID) => {
   const user = await getUserByID(userID);

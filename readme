@@ -1,32 +1,80 @@
-# 🚽 N2 Oficial – Bathroom Tracker
+🚽 N2 Oficial – Bathroom Tracker
 
-**N2 Oficial** é um app simples, feito em **React Native com Expo**, pensado para registrar e visualizar idas ao banheiro. Simples, prático e funcional!
+N2 Oficial é um app simples e divertido, feito em React Native com Expo, para registrar e acompanhar suas idas ao banheiro.
+Rápido, prático e totalmente offline!
 
-##  Funcionalidades
+✨ Funcionalidades
 
-- 🆕 **Cadastro** e **Login** de usuários via armazenamento local (AsyncStorage)  
-- 🏠 Tela inicial com botões para:
-  - **Registrar Momento** (xixi, cocô ou ambos)  
-  - **Visualizar Histórico por Data**  
-- 📝 **Registro de Momento**:
-  - Escolha do tipo: Xixi, Coco ou Ambos  
-  - Observação opcional  
-  - Salvamento local com timestamp  
-- 📅 **Histórico por Data**:
-  - Navegação dia a dia (◀︎ / ▶︎)
-  - Visualização de registros com hora e observações
+🆕 Cadastro e Login de usuários via armazenamento local (AsyncStorage)
 
-##  Tecnologias
+🏠 Tela Inicial com botões para:
 
-- **React Native** (via Expo)
-- **Expo**: ambiente de desenvolvimento simplificado
-- **React Navigation**: navegação entre telas
-- **AsyncStorage**: persistência local de dados
-- **Day.js**: manipulação de datas
+Registrar Momento (xixi, cocô ou ambos)
 
-##  Como Executar
+Visualizar Histórico por Data
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/adrielcardoso/n2-oficial.git
-   cd n2-oficial
+📝 Registro de Momento:
+
+Escolha do tipo: Xixi, Cocô ou Ambos
+
+Campo opcional para observações
+
+Salvamento local com data e hora
+
+📅 Histórico por Data:
+
+Navegação entre dias (◀︎ / ▶︎)
+
+Lista de registros com hora e observações
+
+🛠️ Tecnologias Utilizadas
+
+React Native (via Expo)
+
+Expo – ambiente de desenvolvimento simplificado
+
+React Navigation – navegação entre telas
+
+AsyncStorage – persistência local de dados
+
+Day.js – manipulação de datas
+
+🚀 Como Executar o Projeto
+
+Clone o repositório:
+
+git clone https://github.com/adrielcardoso/n2-oficial.git
+cd n2-oficial
+
+
+Instale as dependências:
+
+npm install
+# ou
+yarn install
+
+
+Inicie o app:
+
+npx expo start
+
+
+Escaneie o QR Code com o aplicativo Expo Go no seu celular.
+
+📷 Prévia do App
+
+(Adicione aqui prints da tela de login, home e histórico, para deixar o README mais visual.)
+
+📌 Próximos Passos (Roadmap)
+
+🔑 Autenticação via Firebase
+
+☁️ Sincronização com banco de dados online
+
+📊 Relatórios semanais e mensais
+
+🔔 Notificações para lembrar de registrar
+
+📄 Licença
+
+Este projeto é de código aberto, distribuído sob a licença MIT.
